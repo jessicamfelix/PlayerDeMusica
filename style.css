@@ -7,7 +7,7 @@ html {
     align-items: center;
     justify-content: center;
     height: 100vh;
-    background-color: rgb(140, 9, 248);
+    background-color: rgb(127, 60, 182);
     color: rgb(221, 221, 221);
     font-family: 'Montserrat', sans-serif;
 }
@@ -43,7 +43,7 @@ h2 {
 progress {
     height: 6px;
     width: 0;
-    background-color: rgb(140, 9, 248);
+    background-color: rgb(127, 60, 182);
 }
 
 .ponto {
