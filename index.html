@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous" />
+    <script src="https://kit.fontawesome.com/d70be88792.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Projeto Player de Música</title>
+</head>
+
+<body>
+    <img src="imagens/capaharry.jpg">
+    <div class="descricao">
+        <h2>As It Was</h2>
+        <i>Harry Styles</i>
+    </div>
+    <div class="duracao">
+        <div class="barra">
+            <progress value="0" max="1"></progress>
+            <div class="ponto"></div>
+
+        </div>
+
+        <div class="tempo">
+            <p class="inicio">0:00</p>
+            <p class="fim">2:43</p>
+        </div>
+        <div class="player">
+            <i class="fas fa-step-backward setas anterior"></i>
+            <i class="fas fa-play-circle botao-play"></i>
+            <i class="fas fa-pause-circle botao-pause"></i>
+            <i class="fas fa-step-forward setas proxima"></i>
+        </div>
+        <audio src="musicas/Harry Styles - As It Was.mp3"></audio>
+        <script src="script.js"></script>
+</body>
+
+</html>
